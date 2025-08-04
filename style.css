@@ -5,6 +5,7 @@
   }
 }
 
+
 .image-wrapper {
   width: 100%;
   background-color: black;
@@ -17,6 +18,7 @@
     height: auto;
     display: block;
 }
+
 
 .profile {
   display: flex;
