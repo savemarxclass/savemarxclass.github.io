@@ -3,51 +3,128 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>서마학</title>
 	<link 
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
 	rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
 	crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#"><img src="assets/seomahak-logo.png" alt="서마학 로고"/>서마학</a>
-  		<button class="navbar-toggler" 
-			type="button" 
-			data-toggle="collapse" 
-			data-target="#navbarNav" 
-			aria-controls="navbarNav" 
-			aria-expanded="false" 
-			aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top px-5" >
+    <div class="container-fluid">    
+      <a class="navbar-brand" href="#">
+        서마학
+      </a>
+      <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    			<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div class="collapse navbar-collapse" id="navbarNav">
-    			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      				<li class="nav-item active">
-        				<a class="nav-link" href="#about">소개<span class="sr-only">(current)</span></a>
-      				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#actions">활동</a>
-				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#email-action">항의 이메일 전송</a>
-     				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#contacts">연락</a>
-      				</li>    
-			</ul>
-  		</div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="#about">소개</a></li>
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="#email-action">항의 이메일 전송</a></li> 
+        </ul>
+      </div>
+    </div>
 	</nav>
 
-	<section class="container px-2 py-5" id="email-action">
-		<h2>항의 이메일 전송</h2>
-		<p>정치경제학입문 수업을 듣고 나서 서울대학교 경제학부 교수들에게 이메일로 </p>
-		<a class="btn btn-danger btn-lg" role="button" href="mailto:yw.koh@snu.ac.kr,dikim@snu.ac.kr,kimby@snu.ac.kr,bgkim07@snu.ac.kr,kimy@snu.ac.kr,jikim72@snu.ac.kr,mitry.shapiro@snu.ac.kr,ryu@snu.ac.kr,yena.park@snu.ac.kr,woongyong.park@snu.ac.kr,j-hpark@snu.ac.kr,myunghseo@snu.ac.kr,ahnd@snu.ac.kr,chamna.yoon@snu.ac.kr,tackyun@snu.ac.kr,ygueron@snu.ac.kr,ssyi@snu.ac.kr,s.jay.lee@snu.ac.kr,elee11@snu.ac.kr,jwlee7@snu.ac.kr,jmlee90@snu.ac.kr,jihonglee@snu.ac.kr,leeci@snu.ac.kr,chullee@snu.ac.kr,minsuchang@snu.ac.kr,yohg@snu.ac.kr,sungcho@snu.ac.kr,cho06@snu.ac.kr,bgju@snu.ac.kr,syngjooc@snu.ac.kr,jaewchoi@snu.ac.kr,sokchul.hong@snu.ac.kr,jayhong@snu.ac.kr,whang@snu.ac.kr,ilwoo.hwang@snu.ac.kr?subject=마르크스경제학 강의의 재개설을 강력히 요구합니다.&body=(*아래 대괄호의 내용을 직접 수정하셔서 보내셔도 좋고, 저희가 작성한 문안을 그대로 보내셔도 좋습니다. 지금 이 문장과 아래의 대괄호는 삭제한 후에 전송을 부탁드립니다.*)%0D%0A%0D%0A마르크스경제학 강의를 재개설할 것을 경제학부에 요구합니다.%0D%0A%0D%0A[저는 <정치경제학입문>강의를 수강한 시민입니다. 정치경제학입문 수업은 자본주의 사회를 성찰하고 비판할 수 있도록 한 시민 교육의 장이자 공공 지식의 공동체였습니다. 이 수업을 통해 우리는 함께 공부했고, 토론하며 연대했습니다.%0D%0A%0D%0A경제학부 교과위원회는 '수요 부족'을 명분으로 모든 마르크스 경제학 관련 강의를 전면 폐강하였습니다.%0D%0A그러나 정말 마르크스 경제학 강의의 수요가 부족한 것입니까?%0D%0A정치경제학입문 수업을 수강한 2500여명의 시민들이 그것이 틀렸음을 증명하고 있습니다.%0D%0A%0D%0A마르크스 경제학 수업은 우리의 삶 자체를 설명하고 있습니다.%0D%0A비정규직 노동자의 고통을 숫자가 아닌 언어로 말할 수 있게 해주었으며, 경제성 뒤에 감춰진 불평등을 인식할 수 있게 해주었습니다.%0D%0A%0D%0A그렇기에 우리는 항의합니다.%0D%0A%0D%0A마르크스경제학은 사라질 수 없습니다.%0D%0A%0D%0A서울대학교 경제학부는 '수요 부족'이라는 거짓된 명분을 철회하고,%0D%0A마르스크경제학 관련 교과목을 즉각 재개설하십시오.]%0D%0A%0D%0A-정치경제학입문을 수강한 시민 일동-
-			    ">메일 보내기</a>
+  <div class="pt-5 image-wrapper">
+    <img src="assets/seomahak-banner.png" class="img-fluid mx-auto d-block img-fluid-limit" alt="서마학 배너"/>
+  </div>
+
+  <div class="container px-3 py-5 profile" >
+    <img src="assets/seomahak-logo.png" width="150" style="display: inline-block;" alt="서마학 로고"/>
+    <div class="profile-text px-3 py-5">
+      <h1>서마학</h1>
+      서울대학교 내 마르크스경제학 개설을 요구하는 학생들
+      <!-- todo: responsive profile implementation -->
+      <p><a href="https://instagram.com/savemarxclass.snu">Instagram</a> | <a href="https://twitter.com/savemarxclass">Twitter</a> | <a href="">Facebook</a> | <a href="">Youtube</a> | <a href="mailto:savemarxclass.snu@gmail.com">savemarxclass.snu@gmail.com</a></p>
+    </div>
+  </div>
+
+  <hr class="mb-4">
+
+	<section class="container px-3 py-5" id="about">
+		<h1>소개</h1>
+    <br />
+    <p>서마학(서울대학교 내 마르크스경제학 개설을 요구하는 학생들) 은 서울대학교 경제학부의 마르크스경제학 탄압에 맞서 만들어진 단체입니다. </p>
+    <p>서마학은 서울대학교 경제학부를 대상으로 기자회견, 피켓팅과 같은 내부 투쟁 활동을 전개하고 있습니다.
+      25-여름학기에는 서울대 구성원은 물론 시민들도 수강할 수 있는 있는 0학점 비공식 정치경제학입문 강의를 개설했습니다. 
+      더 나아가, 서마학의 활동이 학내 운동에서 멈추지 않도록 전국의 지역서점에 모여서 함께 공부할 수 있는 학습커먼즈를 구축하고 있으며, 
+      추후 학술제 및 포럼을 비롯한 다양한 외부 활동으로 확장해 나갈 계획입니다.</p>
+  </section>
+
+
+	<section class="container px-3 py-5" id="email-action">
+		<h1>항의 이메일 전송</h1>
+    <!-- todo: insert appropriate picture -->
+    <br />
+    <p>서울대학교 경제학부가 2025년 정규 여름학기 정치경제학입문 강의 개설을 거부함에 따라, 서마학이 직접 0학점 비공식 정치경제학입문 공개 강의를 개설했습니다. 
+      강의가 끝난 이 시점에서, 수강생 분들께서 강의를 직접 듣고 느끼신 마르크스경제학의 중요성과 의의, 
+      그리고 마르크스경제학 교과목이 사라지면 안 되는 이유를 경제학부 교수들에게 직접 전달해주세요. 
+      <br /><br />정치경제학입문 수업이 없어지지 않게, <strong>경제학부 교수들에게 정치경제학입문 개설을 촉구하는 이메일을 남겨주세요!</strong></p>
+    <p>
+      &#8251; 메일 보내기 버튼을 누르면 기기에 기본으로 설정되어 있는 메일 프로그램으로 연결됩니다. 
+      저희가 미리 작성한 문안을 그대로 보내셔도 무방하고, 수정하셔서 하고 싶은 말씀 자유롭게 보내주셔도 감사하겠습니다!
+    </p>
+    <br />
+		<button class="btn btn-danger btn-lg" role="button" 
+		onclick="emailactfunc()">메일 보내기</button>
 	</section>
 
+  <footer class="mt-auto">
+    <div class="container">
+      <hr class="mb-4">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>(ɔ) 2025 서울대학교 내 마르크스경제학 개설을 요구하는 학생들.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function emailactfunc() {
+      const bcc = encodeURIComponent("yw.koh@snu.ac.kr,dikim@snu.ac.kr,kimby@snu.ac.kr,bgkim07@snu.ac.kr,kimy@snu.ac.kr,jikim72@snu.ac.kr,mitry.shapiro@snu.ac.kr,ryu@snu.ac.kr,yena.park@snu.ac.kr,woongyong.park@snu.ac.kr,j-hpark@snu.ac.kr,myunghseo@snu.ac.kr,ahnd@snu.ac.kr,chamna.yoon@snu.ac.kr,tackyun@snu.ac.kr,ygueron@snu.ac.kr,ssyi@snu.ac.kr,s.jay.lee@snu.ac.kr,elee11@snu.ac.kr,jwlee7@snu.ac.kr,jmlee90@snu.ac.kr,jihonglee@snu.ac.kr,leeci@snu.ac.kr,chullee@snu.ac.kr,minsuchang@snu.ac.kr,yohg@snu.ac.kr,sungcho@snu.ac.kr,cho06@snu.ac.kr,bgju@snu.ac.kr,syngjooc@snu.ac.kr,jaewchoi@snu.ac.kr,sokchul.hong@snu.ac.kr,jayhong@snu.ac.kr,whang@snu.ac.kr,ilwoo.hwang@snu.ac.kr");
+
+      const subject = encodeURIComponent("마르크스경제학 강의의 재개설을 강력히 요구합니다.");
+      const body = encodeURIComponent(`(*아래 대괄호의 내용을 직접 수정하셔서 보내셔도 좋고, 저희가 작성한 문안을 그대로 보내셔도 좋습니다. 지금 이 문장과 아래의 대괄호는 삭제한 후에 전송을 부탁드립니다.*)
+
+마르크스경제학 강의를 재개설할 것을 경제학부에 요구합니다.
+
+[저는 <정치경제학입문>강의를 수강한 시민입니다. 정치경제학입문 수업은 자본주의 사회를 성찰하고 비판할 수 있도록 한 시민 교육의 장이자 공공 지식의 공동체였습니다. 이 수업을 통해 우리는 함께 공부했고, 토론하며 연대했습니다.
+
+경제학부 교과위원회는 '수요 부족'을 명분으로 모든 마르크스 경제학 관련 강의를 전면 폐강하였습니다.
+그러나 정말 마르크스 경제학 강의의 수요가 부족한 것입니까?
+정치경제학입문 수업을 수강한 2500여명의 시민들이 그것이 틀렸음을 증명하고 있습니다.
+
+마르크스 경제학 수업은 우리의 삶 자체를 설명하고 있습니다.
+비정규직 노동자의 고통을 숫자가 아닌 언어로 말할 수 있게 해주었으며, 경제성 뒤에 감춰진 불평등을 인식할 수 있게 해주었습니다.
+
+그렇기에 우리는 항의합니다.
+
+마르크스경제학은 사라질 수 없습니다.
+
+서울대학교 경제학부는 '수요 부족'이라는 거짓된 명분을 철회하고,
+마르크스경제학 관련 교과목을 즉각 재개설하십시오.]
+
+-정치경제학입문을 수강한 시민 일동-`);
+
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&bcc=${bcc}&su=${subject}&body=${body}`;
+      window.open(gmailUrl, '_blank');
+    }
+      
+
+  </script>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
 	integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
