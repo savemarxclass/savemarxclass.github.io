@@ -19,11 +19,3 @@
     display: block;
 }
 
-
-.profile {
-  display: flex;
-  align-items: center;
-}
-.profile-text {
-  display: inline-block;
-}
