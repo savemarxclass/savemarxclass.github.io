@@ -94,12 +94,13 @@
         </h2>
         <div id="example-collapse" class="accordion-collapse collapse" aria-labelledby="example-heading" data-bs-parent="#ex-accordion">
           <div class="accordion-body">
-            <button class="btn btn-sm btn-outline-primary ms-2" style="float: right;" onclick="copy('email-body-example', 'copy-tst-alert')">복사</button>
-            <!--<span style="float: right;" class="badge custom-badge" id="copy-tst-alert">복사되었습니다!</span>-->
-            <button type="button" class="btn btn-sm btn-secondary" id="copy-tst-alert" style="float: right;" disabled>복사되었습니다!</button>
-            
-            <p id="email-body-example">
-<br/>
+            <div style="display: flex; justify-content: flex-end;">
+              <button type="button" class="btn btn-sm btn-secondary" id="copy-tst-alert" disabled>복사되었습니다!</button>
+              <button class="btn btn-sm btn-outline-primary ms-2" onclick="copy('email-body-example', 'copy-tst-alert')">복사</button>
+              <!--<span style="float: right;" class="badge custom-badge" id="copy-tst-alert">복사되었습니다!</span>-->
+            </div>
+          
+            <p id="email-body-example" class="py-2">
 마르크스경제학 강의를 재개설할 것을 경제학부에 요구합니다.<br/><br/>
 
 저는 [정치경제학입문] 강의를 수강한 시민입니다. <br/>
