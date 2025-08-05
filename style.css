@@ -19,3 +19,14 @@
     display: block;
 }
 
+#copy-tst-alert {
+  display: none;
+  background-color: gray;
+  color: white;
+}
+
+.custom-badge {
+  font-size: 0.75rem;      /* 버튼 텍스트 크기에 맞춤 */
+  padding: 0.35em 0.65em;
+  line-height: 1;
+}
